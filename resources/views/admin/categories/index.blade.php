@@ -4,9 +4,9 @@
 
 <div class="container">
     @component('admin.components.breadcrumbs')
-    @slot('title') Список категорий @endslot
-    @slot('parent') Главная @endslot
-    @slot('active') Категории @endslot
+        @slot('title') Список категорий @endslot
+        @slot('parent') Главная @endslot
+        @slot('active') Категории @endslot
     @endcomponent
 
     <hr>
