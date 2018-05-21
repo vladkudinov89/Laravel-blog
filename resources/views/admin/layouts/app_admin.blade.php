@@ -17,6 +17,9 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -38,7 +41,7 @@
                 <div class="btn-group open">
                     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Default</button>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Категории</a>
+                        <a class="dropdown-item" href="{{route('admin.category.index')}}">Категории</a>
                         <a class="dropdown-item" href="#">Материалы</a>
                     </div>
                 </div>
