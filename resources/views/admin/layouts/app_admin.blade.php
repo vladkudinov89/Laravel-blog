@@ -42,7 +42,7 @@
                     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Блог</button>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="{{route('admin.category.index')}}">Категории</a>
-                        <a class="dropdown-item" href="#">Материалы</a>
+                        <a class="dropdown-item" href="{{route('admin.article.index')}}">Материалы</a>
                     </div>
                 </div>
 
