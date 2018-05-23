@@ -39,6 +39,13 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Left Side Of Navbar -->
+                
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="btn btn-primary mr-1" href="{{route('admin.index')}}">Панель состояния</a>
+                    </li>
+                </ul>
+                
                 <div class="btn-group open">
                     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Блог</button>
                     <div class="dropdown-menu">
