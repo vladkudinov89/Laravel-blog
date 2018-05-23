@@ -11,8 +11,8 @@
 
         <hr>
 
-        <a href="{{route('admin.category.create')}}" class="btn btn-primary pull-right">
-            <i class="fa fa-plus-square-o"></i> Создать категорию
+        <a href="{{route('admin.article.create')}}" class="btn btn-primary pull-right">
+            <i class="fa fa-plus-square-o"></i> Создать материал
         </a>
 
         <table class="table table-striped">
@@ -30,11 +30,11 @@
                     <td class="text-right">
 
                         <form onsubmit="if(confirm('Удалить')){return true} else { return false}"
-                              action="{{route('admin.$article.destroy' , $article)}}" method="post">
+                              action="{{route('admin.article.destroy' , $article)}}" method="post">
                             <input type="hidden" name="_method" value="DELETE">
                             {{csrf_field()}}
 
-                            <a href="{{ route('admin.$article.edit', $article) }}">
+                            <a href="{{ route('admin.article.edit', $article) }}">
                                 <i class="fa fa-edit"></i>
                             </a>
 
