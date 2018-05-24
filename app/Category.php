@@ -23,4 +23,13 @@ class Category extends Model
     {
         return $this->hasMany(self::class, 'parent_id');
     }
+
+    //Polymorphic realtion with articles
+    public function articles(){
+        return $this->morphedByMany('App\Article' , 'categoryable');
+    }
+
+    public function scopeLastCategory($query , $count){
+        return $query->orderBy('created_at' , 'desc')->take($count)->get();
+    }
 }
