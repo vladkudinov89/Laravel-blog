@@ -18,7 +18,7 @@ Route::group(['prefix' => 'admin' , 'namespace' => 'Admin' , 'middleware' => ['a
 });
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('blog.blog');
 });
 
 Auth::routes();
