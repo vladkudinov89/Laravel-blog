@@ -54,6 +54,15 @@
                     </div>
                 </div>
 
+                <div class="btn-group open">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Управление пользователями
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{{route('admin.user_managment.user.index')}}">Пользователи</a>
+                    </div>
+                </div>
+
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
                     <!-- Authentication Links -->
