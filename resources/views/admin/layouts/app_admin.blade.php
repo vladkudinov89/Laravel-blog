@@ -46,7 +46,7 @@
                     </li>
                 </ul>
                 
-                <div class="btn-group open">
+                <div class="btn-group open mr-1">
                     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Блог</button>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="{{route('admin.category.index')}}">Категории</a>
